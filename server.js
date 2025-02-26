@@ -2,7 +2,7 @@ const express=require('express')
 const mongoose=require('mongoose')
 const dotenv=require('dotenv')
 dotenv.config()
-const mongoURL=process.env.config
+const mongoURL=process.env.URL
 const app=express()
 const schema=require('./models/user')
 
